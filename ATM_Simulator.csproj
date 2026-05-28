@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\ATMSingleton.cs" />
+    <Compile Include="Core\SessionManager.cs" />
     <Compile Include="Models\TransactionResult.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Program.cs" />
