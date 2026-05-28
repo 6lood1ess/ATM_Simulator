@@ -49,6 +49,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ICanFindUsers.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Services\BankingService.cs" />
+    <Compile Include="Services\ICanPerformBankingOperations.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".editorconfig" />
